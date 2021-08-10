@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold chain</title>
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body>
+    <header class="bg-indigo-50 py-10">
+        <div class="hidden md:block container mx-auto">
+            <div class="flex items-center font-medium">
+                <nav class="mx-auto">
+                    <ul class="flex text-gray-700">
+                        <li class="mr-10">
+                            <a href="#" class="hover:text-indigo-600">About</a>
+                        </li>
+                        <li class="mr-10">
+                            <a href="#" class="hover:text-indigo-600">Products</a>
+                        </li>
+                        <li class="mr-10">
+                            <a href="#" class="hover:text-indigo-600">Contact</a>
+                        </li>
+                        <li class="mr-10">
+                            <a href="#" class="hover:text-indigo-600">Help</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="flex items-center">
+                    <a href="#" class="flex items-center bg-indigo-600 hover:bg-indigo-500 text-white py-2 px-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 
+                            0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        Nazar Nyzhnyk
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="md:hidden container mx-auto px-6">
+            <div class="flex items-center">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </a>
+                <a href="#" class="ml-auto flex items-center bg-indigo-600 hover:bg-indigo-500 text-white py-2 px-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 
+                        0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Nazar Nyzhnyk
+                </a>
+            </div>
+        </div>
+        <div class="absolute block top-0 bg-indigo-50 h-96 min-w-full" style="z-index: -100;"></div>
+    </header>
+    <section class="container mx-auto">
+        <a href="#" class="flex text-indigo-600 hover:text-indigo-500 font-medium">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              back to profile
+        </a>
+        <h1 class="text-3xl text-gray-700 text-center mt-12 font-medium">Create new Cold chain contract</h1>
+        <div class="grid grid-cols-12 mt-8">
+            <div class="col-span-1 lg:col-span-3"></div>
+            <div class="col-span-10  lg:col-span-6  bg-white shadow-lg py-12 px-6 lg:px-16">
+                <form action="" class="">
+                    <div class="">
+                        <h3 class="text-lg font-medium text-gray-700">Location</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4 mt-2">
+                            <div class="text-gray-500">
+                                <p>From</p>
+                                <div class="pr-0 md:pr-4">
+                                    <input type="text" class="mt-2 text-gray-700 bg-indigo-50 py-2 outline-none px-6 w-full w-full">
+                                </div>
+                            </div>
+                            <div class="text-gray-500">
+                                <p>To</p>
+                                <div class="">
+                                    <input type="text" class="mt-2 text-gray-700 bg-indigo-50 py-2 outline-none px-6 w-full">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h3 class="text-lg font-medium text-gray-700">Temperature</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4 mt-2">
+                            <div class="text-gray-500">
+                                <p>From</p>
+                                <div class="pr-0 md:pr-4">
+                                    <input type="number" class="mt-2 text-gray-700 bg-indigo-50 py-2 outline-none px-6 w-full">
+                                </div>
+                            </div>
+                            <div class="text-gray-500">
+                                <p>To</p>
+                                <div class="">
+                                    <input type="number" class="mt-2 text-gray-700 bg-indigo-50 py-2 outline-none px-6 w-full">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-gray-500 mt-4">Show temperature in</p>
+                        <div class="flex mt-2">
+                            <div class="flex items-center ">
+                                <div class=" cursor-pointer">
+                                    <input type="radio" id="radio1" name="temperature" value="celsium" class="mr-2 cursor-pointer">
+                                    <label for="radio1" class="text-lg text-gray-800 cursor-pointer">Celsium</label>
+                                </div>
+                                <div class="ml-4 hover:cursor-pointer">
+                                    <input type="radio" id="radio2" name="temperature" value="fahrenheit" class="mr-2 cursor-pointer">
+                                    <label for="radio2" class="text-lg text-gray-800 cursor-pointer">Fahrenheit</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6">
+                        <h3 class="text-lg font-medium text-gray-700">Payment</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-y-4 mt-2">
+                            <div class="text-gray-500">
+                                <p>Define custom payment amount (optional)</p>
+                                <div class="pr-0 md:pr-4">
+                                    <input type="number" class="mt-2 text-gray-700 bg-indigo-50 py-2 outline-none px-6 w-full">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-6 w-full">
+                        <a href="#" class="block text-center border border-indigo-600 text-indigo-600 bg-indigo-50 hover:bg-indigo-100 mx-auto py-2 px-10">Pay 10 NEAR</a>
+                    </div>
+                </form> 
+            </div>
+            <div class="col-span-1 lg:col-span-3"></div>
+        </div>
+    </section>
+</body>
+</html>
